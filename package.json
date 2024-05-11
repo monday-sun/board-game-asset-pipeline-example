@@ -1,0 +1,9 @@
+{
+  "name": "board-game-card-gen-example",
+  "version": "0.1.0",
+  "description": "\"Example repo for https://github.com/monday-sun/board-game-card-gen\"",
+  "repository": "https://github.com/monday-sun/board-game-card-gen-example.git",
+  "author": "Monday Romelfanger <monday.romelfanger@gmail.com>",
+  "license": "MIT",
+  "private": false
+}
