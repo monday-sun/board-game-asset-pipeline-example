@@ -1,0 +1,2 @@
+name,count,frontTemplate,backTemplate,description,imageUrl,backImageUrl
+"Sample Title",2,"./react/basic-layout-with-image/basic-layout-with-image.front.tsx","./react/basic-layout-back/basic-layout.back.tsx","This is a sample description.","./react/assets/screenshot-todo-1.png","./react/assets/screenshot-todo-2.png"
