@@ -41,8 +41,8 @@ jobs:
       - name: yarn install
         run: yarn install --frozen-lockfile
 
-      - name: Run card-gen
-        run: yarn card-gen
+      - name: Run asset-gen
+        run: yarn asset-gen
 
       - name: Archive generated cards
         uses: actions/upload-artifact@v4

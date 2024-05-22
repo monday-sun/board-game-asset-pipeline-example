@@ -1,21 +1,22 @@
 {
-  "name": "board-game-card-gen-example",
+  "name": "board-game-asset-pipeline-example",
   "version": "0.1.0",
-  "description": "\"Example repo for https://github.com/monday-sun/board-game-card-gen\"",
-  "repository": "https://github.com/monday-sun/board-game-card-gen-example.git",
+  "description": "\"Example repo for https://github.com/monday-sun/board-game-asset-pipeline\"",
+  "repository": "https://github.com/monday-sun/board-game-asset-pipeline-example.git",
   "author": "Monday Romelfanger <monday.romelfanger@gmail.com>",
   "license": "MIT",
   "private": false,
   "scripts": {
-    "card-gen:clean": "rm -rf ./generated",
-    "card-gen": "yarn ts-node node_modules/board-game-card-gen/src/card-gen",
-    "card-gen:watch": "yarn ts-node node_modules/board-game-card-gen/src/card-gen --watch",
+    "update-asset-pipeline": "yarn upgrade board-game-asset-pipeline && yarn install",
+    "asset-gen:clean": "rm -rf ./generated",
+    "asset-gen": "yarn ts-node node_modules/board-game-asset-pipeline/src/asset-pipeline",
+    "asset-gen:watch": "yarn ts-node node_modules/board-game-asset-pipeline/src/asset-pipeline --watch",
     "build": "tsc",
     "build:watch": "yarn build -w",
     "format": "prettier --write .",
     "lint": "eslint",
     "lint:fix": "eslint --fix",
-    "postinstall": "npm install --prefix node_modules/board-game-card-gen"
+    "postinstall": "npm install --prefix node_modules/board-game-asset-pipeline"
   },
   "devDependencies": {
     "@eslint/js": "^9.2.0",
@@ -29,7 +30,7 @@
     "typescript-eslint": "^7.8.0"
   },
   "dependencies": {
-    "board-game-card-gen": "git+https://github.com/monday-sun/board-game-asset-pipeline#main",
+    "board-game-asset-pipeline": "git+https://github.com/monday-sun/board-game-asset-pipeline#main",
     "react": "^18.3.1",
     "typescript": "^5.4.5"
   }

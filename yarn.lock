@@ -176,9 +176,9 @@
   integrity sha512-5+fP8P8MFNC+AyZCDxrB2pkZFPGzqQWUzpSeuuVLvm8VMcorNYavBqoFcxK8bQz4Qsbn4oUEEem4wDLfcysGHA==
 
 "@types/node@*":
-  version "20.12.11"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-20.12.11.tgz#c4ef00d3507000d17690643278a60dc55a9dc9be"
-  integrity sha512-vDg9PZ/zi+Nqp6boSOT7plNuthRugEKixDv5sFTIpkE89MmNtEArAShI4mxuX2+UrLEe9pxC1vm2cjm9YlWbJw==
+  version "20.12.12"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-20.12.12.tgz#7cbecdf902085cec634fdb362172dfe12b8f2050"
+  integrity sha512-eWLDGF/FOSPtAvEqeRAQ4C8LSA7M1I7i0ky1I8U7kD1J5ITyW3AsRhQrKVoWf5pFKZ2kILsEGJhsI9r93PYnOw==
   dependencies:
     undici-types "~5.26.4"
 
@@ -502,9 +502,9 @@ basic-ftp@^5.0.2:
   resolved "https://registry.yarnpkg.com/basic-ftp/-/basic-ftp-5.0.5.tgz#14a474f5fffecca1f4f406f1c26b18f800225ac0"
   integrity sha512-4Bcg1P8xhUuqcii/S0Z9wiHIrQVPMermM1any+MX5GeGD7faD3/msQUDGLol9wOcz4/jbg/WJnGqoJF6LiBdtg==
 
-"board-game-card-gen@git+https://github.com/monday-sun/board-game-asset-pipeline#main":
+"board-game-asset-pipeline@git+https://github.com/monday-sun/board-game-asset-pipeline#main":
   version "0.0.1"
-  resolved "git+https://github.com/monday-sun/board-game-asset-pipeline#4bb9af0680f692d3b2d3d3859630dbcaeb99e766"
+  resolved "git+https://github.com/monday-sun/board-game-asset-pipeline#bab82cbafd70917fed16881dafce0c78c105d4bd"
   dependencies:
     "@types/yargs" "^17.0.32"
     node-html-to-image "^4.0.0"
@@ -1996,9 +1996,9 @@ pend@~1.2.0:
   integrity sha512-F3asv42UuXchdzt+xXqfW1OGlVBe+mxa2mqI0pg5yAHZPvFmY3Y6drSf/GQ1A86WgWEN9Kzh/WrgKa6iGcHXLg==
 
 picocolors@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/picocolors/-/picocolors-1.0.0.tgz#cb5bdc74ff3f51892236eaf79d68bc44564ab81c"
-  integrity sha512-1fygroTLlHu66zi26VoTDv8yRgm0Fccecssto+MhsZ0D/DGW2sm8E8AjW7NU5VVTRt5GxbeZ5qBuJr+HyLYkjQ==
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/picocolors/-/picocolors-1.0.1.tgz#a8ad579b571952f0e5d25892de5445bcfe25aaa1"
+  integrity sha512-anP1Z8qwhkbmu7MFP5iTt+wQKXgwzf7zTyGlcdzabySa9vd0Xt392U0rVmz9poOaBj0uHJKyyo9/upk0HrEQew==
 
 picomatch@^2.3.1:
   version "2.3.1"
