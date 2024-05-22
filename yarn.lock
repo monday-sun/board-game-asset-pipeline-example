@@ -502,10 +502,9 @@ basic-ftp@^5.0.2:
   resolved "https://registry.yarnpkg.com/basic-ftp/-/basic-ftp-5.0.5.tgz#14a474f5fffecca1f4f406f1c26b18f800225ac0"
   integrity sha512-4Bcg1P8xhUuqcii/S0Z9wiHIrQVPMermM1any+MX5GeGD7faD3/msQUDGLol9wOcz4/jbg/WJnGqoJF6LiBdtg==
 
-"board-game-card-gen@git+https://github.com/monday-sun/board-game-card-gen#main":
+"board-game-card-gen@git+https://github.com/monday-sun/board-game-asset-pipeline#main":
   version "0.0.1"
-  uid "4cb7b3049aa53b954666a629927ca3b37fd65d54"
-  resolved "git+https://github.com/monday-sun/board-game-card-gen#4cb7b3049aa53b954666a629927ca3b37fd65d54"
+  resolved "git+https://github.com/monday-sun/board-game-asset-pipeline#4bb9af0680f692d3b2d3d3859630dbcaeb99e766"
   dependencies:
     "@types/yargs" "^17.0.32"
     node-html-to-image "^4.0.0"

@@ -29,7 +29,7 @@
     "typescript-eslint": "^7.8.0"
   },
   "dependencies": {
-    "board-game-card-gen": "git+https://github.com/monday-sun/board-game-card-gen#main",
+    "board-game-card-gen": "git+https://github.com/monday-sun/board-game-asset-pipeline#main",
     "react": "^18.3.1",
     "typescript": "^5.4.5"
   }
