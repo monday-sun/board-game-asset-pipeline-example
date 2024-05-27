@@ -504,11 +504,13 @@ basic-ftp@^5.0.2:
 
 "board-game-card-gen@git+https://github.com/monday-sun/board-game-asset-pipeline#main":
   version "0.0.1"
-  resolved "git+https://github.com/monday-sun/board-game-asset-pipeline#4bb9af0680f692d3b2d3d3859630dbcaeb99e766"
+  uid eaa8fe9754ded44ec11acf7a33ea699153b93454
+  resolved "git+https://github.com/monday-sun/board-game-asset-pipeline#eaa8fe9754ded44ec11acf7a33ea699153b93454"
   dependencies:
     "@types/yargs" "^17.0.32"
     node-html-to-image "^4.0.0"
     papaparse "^5.4.1"
+    prettier "^3.2.5"
     react "^18.3.1"
     react-dom "^18.3.1"
     rxjs "^7.8.1"
