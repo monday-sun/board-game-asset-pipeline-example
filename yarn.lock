@@ -504,16 +504,18 @@ basic-ftp@^5.0.2:
 
 "board-game-card-gen@git+https://github.com/monday-sun/board-game-asset-pipeline#main":
   version "0.0.1"
-  resolved "git+https://github.com/monday-sun/board-game-asset-pipeline#4bb9af0680f692d3b2d3d3859630dbcaeb99e766"
+  uid "84a78fa1b8b30b1c4f4701fb4de9662ab4b40449"
+  resolved "git+https://github.com/monday-sun/board-game-asset-pipeline#84a78fa1b8b30b1c4f4701fb4de9662ab4b40449"
   dependencies:
     "@types/yargs" "^17.0.32"
     node-html-to-image "^4.0.0"
     papaparse "^5.4.1"
+    prettier "^3.2.5"
     react "^18.3.1"
     react-dom "^18.3.1"
     rxjs "^7.8.1"
     ts-node "^10.9.2"
-    yaml "^2.4.2"
+    yaml "^2.4.3"
     yargs "^17.7.2"
 
 brace-expansion@^1.1.7:
@@ -2708,10 +2710,10 @@ y18n@^5.0.5:
   resolved "https://registry.yarnpkg.com/y18n/-/y18n-5.0.8.tgz#7f4934d0f7ca8c56f95314939ddcd2dd91ce1d55"
   integrity sha512-0pfFzegeDWJHJIAmTLRP2DwHjdF5s7jo9tuztdQxAhINCdvS+3nGINqPd00AphqJR/0LhANUS6/+7SCb98YOfA==
 
-yaml@^2.4.2:
-  version "2.4.2"
-  resolved "https://registry.yarnpkg.com/yaml/-/yaml-2.4.2.tgz#7a2b30f2243a5fc299e1f14ca58d475ed4bc5362"
-  integrity sha512-B3VqDZ+JAg1nZpaEmWtTXUlBneoGx6CPM9b0TENK6aoSu5t73dItudwdgmi6tHlIZZId4dZ9skcAQ2UbcyAeVA==
+yaml@^2.4.3:
+  version "2.4.5"
+  resolved "https://registry.yarnpkg.com/yaml/-/yaml-2.4.5.tgz#60630b206dd6d84df97003d33fc1ddf6296cca5e"
+  integrity sha512-aBx2bnqDzVOyNKfsysjA2ms5ZlnjSAW2eG3/L5G/CSujfjLJTJsEw1bGw8kCf04KodQWk1pxlGnZ56CRxiawmg==
 
 yargs-parser@^21.1.1:
   version "21.1.1"
