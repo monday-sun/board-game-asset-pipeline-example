@@ -31,6 +31,6 @@
   "dependencies": {
     "board-game-card-gen": "git+https://github.com/monday-sun/board-game-asset-pipeline#main",
     "react": "^18.3.1",
-    "typescript": "^5.4.5"
+    "typescript": "^5.5.2"
   }
 }
